@@ -27,16 +27,14 @@ nav {
     font-size: 20px;
 }
 
-.header-container {
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-}
+
 
 .header-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 250px;
+    margin-top: 120px;
 }
 
 .main-title {
@@ -63,6 +61,77 @@ nav {
     width: 196px;
     height: 44px;
 }
-.cemera-main{
-    margin-top: -400px;
+
+.cemera-main {
+    margin-top: -460px;
+}
+
+.logo {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+
+
+/*---------------------
+    products-style
+-----------------------*/
+
+
+.products-mind {
+    display: flex;
+    justify-content: center;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 329px;
+    height: 490px;
+
+}
+
+.product-content {
+    padding: 10px;
+}
+
+.product-name {
+    font-size: 24px;
+    color: #18191F;
+}
+
+.product-price {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.87)
+}
+
+.ratings {
+    color: orange;
+    margin-top: 10px;
+}
+
+.filled {
+    color: #808080;
+}
+
+.product-ratings p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.product-description {
+    color: #787885;
+    font-size: 14px;
+
 }
