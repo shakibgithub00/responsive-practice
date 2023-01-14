@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 494px;
+    margin-top: 88px;
+    justify-content: center;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 34px;
+    
+    
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+.filled{
+    width: 20px;
+    height: 20px;
+}
